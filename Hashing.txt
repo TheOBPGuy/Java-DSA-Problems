@@ -1,0 +1,59 @@
+1. hashCode() method returns a hash code value - an integer number
+2. hashCode() method returns the same interger number if two keys are identical - that is if we call the
+    equals() methods
+
+The put command assocates the value with the specified key ,i.e. if we add a key-value pair where the key 
+    already exists this method replaces the existing value of the key with the new value
+
+How to handle HashTable collision:
+If there are two different keys with same hash values then we refer to them as hash collision. 
+    We can avoid this by the following techniques:
+        1. Separate Chaining
+        2. Open Addressing
+
+Separate Chaining:
+Maintains a datastructure (usually a LinkedList) to hold all the different values which hashed to a
+particular value.
+
+
+public static void insert(int key, int element) {
+    A[key].insertEnd(key, element);
+}
+
+public static boolean search(key, element) {
+    LinkedList<Integer> list = A[key];
+    list.search(key, element);
+}
+
+Linear Probing  - Open Addressing:
+Idea is to keep traversing the hashtable if a dupliate hash value is found. If so, we will place the 
+element in the next available empty slot. 
+We need to keep in mind of the limited space available here.
+
+public static boolean insert(int key) {
+    int h_value = hashCode(key);
+    int i = 0;
+    while ((h+i) mod N not empty and i < N) {
+        // Keep traversing through the tables
+        i++;
+    }
+
+    if(Array is full) {
+        return false;
+    } else {
+        A[(h+i)modN].add(key);
+    }
+}
+
+public static boolean search(int key) {
+    int hash_code = hashCode(key);
+    int i = 0;
+    while ((h+i)modN is NOT Empty and i <  N) {
+        if (A[(h+i)modN] == key) {
+            return true;
+        }
+        i++;
+    }
+    return false;
+}
+
