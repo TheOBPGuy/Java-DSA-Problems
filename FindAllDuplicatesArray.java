@@ -6,7 +6,7 @@ import java.util.*;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class FindAllDuplicatesArray {
