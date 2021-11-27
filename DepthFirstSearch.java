@@ -7,7 +7,7 @@ import java.util.Stack;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class DepthFirstSearch {
