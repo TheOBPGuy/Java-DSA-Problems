@@ -3,7 +3,7 @@
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class BestTimeToBuyAndSellStock {
