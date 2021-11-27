@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class Watermelon {
