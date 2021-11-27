@@ -1,0 +1,26 @@
+Differences between ArrayList and Vector:
+
+1.  ArrayList is not symchronized - avoid accessing them from multiple threads
+2. ArrayList is not a legacy class - not used in previos java versions aka 
+not previously on the Collections framework. 
+3. ArrayList increases its size by 50% of the array size.
+4. ArrayList is not thread safe as its not symchronized.
+
+1. Vector is symchronized
+2. Vector is a legacy class
+3. Vector increases its size by doubling the array size
+4. Vector list is thread safe asits every method is synchronized
+
+Differneces between ArrayList and LinkedList:
+
+1. ArrayList uses dynamic array
+2. ArrayList is not effiecient for manipulation because too much is required.
+3. ArrayList is better to store and fetch data
+4. ArrayList provides random access
+5. ArrayList takes less memory overhead as it stores only object
+
+1. LinkedList uses a doubly linked list.
+2. LinkedList is efficient for manipulation
+3. LinkedList is better to manipulate data
+4. LinkedList takes more memory overhead as it stores the object as well as the
+ address of that object
