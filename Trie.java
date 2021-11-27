@@ -6,7 +6,7 @@ import java.util.Map;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class Trie {

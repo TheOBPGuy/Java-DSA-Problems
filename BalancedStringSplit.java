@@ -5,7 +5,7 @@ import java.util.LinkedList;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class BalancedStringSplit {

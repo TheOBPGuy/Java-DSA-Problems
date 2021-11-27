@@ -6,7 +6,7 @@ import java.util.Queue;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class RangeSumofBST {

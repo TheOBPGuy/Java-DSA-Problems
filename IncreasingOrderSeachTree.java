@@ -8,7 +8,7 @@ import RangeSumofBST.TreeNode;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class IncreasingOrderSeachTree {

@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 
 /**
- * @author farhanibrahim
+ * @author TheOBPGuy
  *
  */
 public class CountSubstrings {
