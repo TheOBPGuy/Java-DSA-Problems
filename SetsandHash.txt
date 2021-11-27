@@ -1,0 +1,52 @@
+Differences between List and Set:
+
+1. List can contain duplicate elements whereas Set includes unique items.
+2. List is an ordered collection which maintains the insertion order whereas 
+    Set is an unordered collection which does not perserve the insertion order.
+3. List interface can allow n number of null values whereas Set interface only allows a 
+    single null value.
+
+
+Differences between HashSet and TreeSet:
+1. HashSet maintains no order whereas TreeSet maintians ascending order.
+2. HashSet is implemented using hash tables whereas TreeSet is implemented using Tree Structure
+3. HashSet performs faster than TreeSet
+4. HashSet is backed by HashMap whereas TreeSet is backed by TreeMap
+
+
+Differences between Set and Map:
+1. Set contains values whereas Map contains both key and value
+2. Set contains unique values whereas Map can contain unique Keys with duplicate values
+3. Set holds a single number of null values whereas Map can include a single null
+    key with n number of null values.
+
+
+Differences between HashSet and HashMap:
+1. HashSet contains only values whereas HashMap includes the entry (key, value). HashSet 
+     can be iterated, but HashMap needs to be converted to a Set to iterate
+2. HashSet implements Set interface whereas HashMap implements Map interface
+3. HashSet cannot have any duplciate value whereas HashMap can contain duplicate values with
+    unique Keys
+4. HashSet contains a single number of null values whereas HashMap can hold a single null
+    key with n number of null values.
+
+
+Differences between HashMap and TreeMap:
+1. HashMap maintains no orders but TreeMap maintains ascending order
+2. HashMap implemented by hash tables and TreeMap implemented by Tree Structure
+3. HashMap can be sorted by Key or value whereas TreeMap can be sorted by key.
+4. HashMap may contain a null key with multiple null values whereas TreeMap cannot 
+    hold a null key but can hold multiple null values.
+
+
+Differences between HashMap and Hashtable:
+
+1. HashMap is not synchronized
+2. HashMap can only contain one null key and multiple null values.
+3. HashMap is not treadsafe so its useful for non-threaded applications
+4. HashMap inherits the AbstractMap class
+
+1. Hashtable is synchronized
+2. Hashtable cannot contain any null key or null value
+3. Hashtable is thread safe and it can be shared between varios threads
+4. Hashtable inherits the Dictionary class.
