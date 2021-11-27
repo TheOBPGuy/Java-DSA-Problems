@@ -1,0 +1,19 @@
+Differences between Collection and Collections:
+1. The Collection is an interface whereas Collections is a class
+2. Collection interface provides the standard functionality of data structure - List, Set,
+    Queue. However Collections class is to sort and synchronize the collection elements.
+3. Collection interface provides the methods that can be used for data structure whereas Collections class
+    provides the static methods which can be used for various operation on a collection.
+
+
+Differences between Comparable and Comparator:
+
+1. Comparable provides only one sort of sequence
+2. Comparable provides one method named compareTo()
+3. it is found in java.lang package
+4. Implementing the Comparable interface will update the actual class
+
+1. Comparator provides multiple sorts of sequences
+2. It provides one method named compare()
+3. Comparator is located in java.util package
+4. The actual class is not changed.

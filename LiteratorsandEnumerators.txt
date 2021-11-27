@@ -20,5 +20,5 @@ Differences between Iterator and Enumeration:
 1. Enumeration can traverse only legacy elements
 2. Enumeration is not fail-fast
 3. Enumeration is faster than Iterator
-4. Enumeration can perform only travser operation on the collection
+4. Enumeration can perform only travserse operation on the collection
 
